@@ -125,10 +125,15 @@ body {
 }
  
  .teamoriga h1{
- 	margin-left: 17%;
+ 	margin-left: 10%;
     margin-bottom: 6%;
 
  }
+  .teamoriga p{
+ 	margin-left: 10% !important;
+
+ }
+
  .teamoriga a{
  	transform: translate3d(0,0,0);
     transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
@@ -157,7 +162,7 @@ body {
     border-radius: 2px;
     height: 25px;
   font-family: 'Teko', sans-serif;
-  margin-left: 16%;
+  margin-left: 9%;
 
  }
 
