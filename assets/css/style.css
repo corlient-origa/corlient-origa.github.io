@@ -1837,7 +1837,7 @@ top: 0px;
         }
 
         .counter-up h3 span {
-            font-size: 72px;
+            font-size: 52px;
         }
 
         .ar-feature {
@@ -1912,6 +1912,9 @@ top: 0px;
         }
         .section2{
         	background: #1c385d;
+        }
+        .section1{
+        	background: #112643;
         }
 
          .section2 h2{
