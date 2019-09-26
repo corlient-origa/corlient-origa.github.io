@@ -2017,7 +2017,7 @@ top: 0px;
 
         .secret-feature .ar-image {
             margin-left: 0px !important;
-            min-width: 56%
+            min-width: 52%
         }
 
         .secret-feature .ar-list {
@@ -2216,6 +2216,13 @@ top: 0px;
             width: 83px;
         }
 
+        .secret-sauce{
+        	border-radius: 100%;
+		    background: #1c385d;
+		    width: 130px !important;
+		    height: 130px;
+        }
+
     }
         @media only screen and (min-width: 700px) {
         .hero-2 .form-alt input {
@@ -2404,6 +2411,12 @@ top: 0px;
         .origa-solution .ar-text h2{
         	font-size: 16px
         }
+
+        .secret-sauce img {
+		    width: 69px;
+		    height: inherit;
+		    margin-left: 19%;
+		}
 
        /* .origa-solution .small {
             width: 5vw;
