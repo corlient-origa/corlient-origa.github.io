@@ -36,7 +36,7 @@
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#features">Features</a></li>
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Reviews</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pricing">Carrers</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reviews">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact-section">Contact Us</a></li>
                         <!-- <li class="nav-item"><a class="btn-cta nav-link js-scroll-trigger" href="#signup">Contact Us</a></li> -->
                     </ul>
                 </div>
@@ -148,7 +148,7 @@
                                 <h2>The solution lies in leveraging right <br> technology and network</h2>
                             </div>
                         </div>
-                    </div>
+                      </div>
                     <div class="ar-list origa-solution">
                         <ul class="flex-container flex-start text-center">
                             <li class="flex-item medium">
@@ -179,6 +179,7 @@
                             </li>
                         </ul>
                     </div>
+                     
                 </div>
             </div>
             <div id="products" class="features bgWhite wow fadeInDown">
@@ -186,7 +187,8 @@
                     <div class="row text-center about-origa">
                         <div class="col-md-12">
                             <div class="features-intro">
-                                <h2>Origa offers Collection as a Service platform</h2>
+                                <h2>Origa offers Collection as a <br>Service platform</h2>
+                                <h4 class="opac">Origa offers Collection as a <br>Service platform</h4>
                                 <p>a full-suite of intelligent collection services orchestrated via a web of debt resolution partners who execute data derived strategies in a marketplace model</p>
                             </div>
                         </div>
@@ -206,7 +208,8 @@
                             <div class="row text-left">
                                 <div class="col-md-12">
                                     <div class="features-intro">
-                                        <h1>Our secret sauce is actually <br> an open secret?</h1>
+                                        <h1>Our secret sauce is actually <br> an open secret</h1>
+                                        <h4 class="opac secretopac">Our secret sauce is actually <br> an open secret</h4>
                                     </div>
                                 </div>
                             </div>
@@ -381,7 +384,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ar-feature ">
+                    <div class="ar-feature contact-section" id="contact-section">
                         <div class="ar-list">
                             <ul>
                                 <li>
@@ -414,16 +417,16 @@
                             </ul>
                         </div>
                         <div class="ar-image">
-                            <form role="form" id="contact-form" class="contact-form">
+                            <form role="form" id="myform" method="post" class="contact-form">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Your Email/Phone">
+                                            <input type="email" class="form-control" name="name" id="name" autocomplete="off" placeholder="Your Email/Phone">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea class="form-control textarea" rows="3" name="Message" id="Message" placeholder="Message"></textarea>
+                                            <textarea class="form-control textarea" rows="3" name="notes" id="notes" placeholder="Message"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -624,6 +627,13 @@
     <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_frZ4OQQfUNVz9dYIFimrX");    
+        })();
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
 </body>
 
 </html>
