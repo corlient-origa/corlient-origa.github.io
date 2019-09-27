@@ -403,15 +403,15 @@ top: 0px;
     font-family: 'Jura', sans-serif;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: transparent !important;
+    background-color: #1c385d !important;
     -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
 }
 
 .navbar .navbar-brand {
     font-family: 'Jura', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: bolder;
     letter-spacing: 0;
     color: #ffffff !important;
     vertical-align: middle;
@@ -504,7 +504,7 @@ top: 0px;
     .navbar.past-main {
         padding-top: 15px;
         padding-bottom: 15px;
-        background-color: rgba(255, 255, 255, 0.99) !important;
+        /*background-color: rgba(255, 255, 255, 0.99) !important;*/
         -webkit-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
         -moz-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
         box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
@@ -654,7 +654,7 @@ top: 0px;
     }
 
     .navbar.past-main .navbar-brand {
-        color: #6d48e5 !important;
+        color: #ffffff !important;
     }
 
     .nav-white.past-main .nav-item .nav-link {
@@ -667,7 +667,7 @@ top: 0px;
     }
 
     .nav-white.past-main .navbar-brand {
-        color: #364655;
+        color: #ffffff;
     }
 
     .navbar.past-main span.navbar-toggler-icon {
