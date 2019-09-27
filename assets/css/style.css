@@ -510,6 +510,21 @@ top: 0px;
         box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
     }
 
+    .contact-section .ar-list .ar-icon{
+    	    border-radius: 100%;
+		    background: #1c385d;
+		    height: 60px;
+		    width: 60px;
+		    text-align: center;
+    }
+    .contact-section .ar-list .ar-icon img{ 	    
+		    height: inherit;
+
+    }
+     .contact-section .ar-list .ar-text{ 	    
+		    margin-top: 3%;
+    }
+
     .secret-feature .ar-list {
 			height: unset !important;
 		}
@@ -671,10 +686,7 @@ top: 0px;
 
     .home {
         padding: 100px 0 50px 0;
-	    background: url(../images/Buildings.png) repeat no-repeat;
 	    height: 707px;;
-	    background-size: cover;
-	    background-position: bottom;
     }
 
     .home .intro-block {
@@ -2542,7 +2554,8 @@ top: 0px;
     }
 
     .hero-container {
-    padding: 4%;
+    padding: 1%;
+    padding-left: 10%;
 }
 
     .secret-sauce{
@@ -2630,6 +2643,14 @@ top: 0px;
 		 .origa-solutions{
 		 	color:#ffffff !important;
 		 }
+
+		 .carousel-control-next {
+		    right: 12%;
+		}
+
+		.carousel-control-prev {
+		    left: -14%;
+		}
 
         
 
