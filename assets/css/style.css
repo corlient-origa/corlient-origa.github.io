@@ -306,6 +306,10 @@ body {
  	color: #1c385d;
  }
 
+ .origa-solutions{
+ 	color:#ffffff !important;
+ }
+
 
  .origa-solution li{
  	margin:3%;
@@ -2515,6 +2519,10 @@ top: 0px;
 			 	color: #1c385d;
 			 }
 
+			 .origa-solutions{
+			 	color:#ffffff !important;
+			 }
+
 
     }
 
@@ -2617,6 +2625,10 @@ top: 0px;
 
          .features .features-intro h2{
 		 	color: #1c385d;
+		 }
+
+		 .origa-solutions{
+		 	color:#ffffff !important;
 		 }
 
         
