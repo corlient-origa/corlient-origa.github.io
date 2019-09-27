@@ -482,6 +482,10 @@ input::-moz-placeholder {
     color: #ffffff;
 }
 
+.navbar-light .navbar-nav .nav-link{
+	color:#fefefe !important;
+}
+
 .navbar-nav .nav-item .nav-link {
     color: #ffffff;
     font-weight: 500;
@@ -494,7 +498,7 @@ input::-moz-placeholder {
 }
 
 .nav-white .nav-item .nav-link:hover {
-    color: #ffffff;
+    color: #ffffff !important;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -529,6 +533,21 @@ input::-moz-placeholder {
     .home{
         height: 100vh !important; 
     }
+
+    .small{
+    	color: #ffffff
+    }
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+    .ar-text{
+    	margin-top: 5px;
+    }
+
     .navbar.past-main {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -556,6 +575,9 @@ input::-moz-placeholder {
     .secret-feature .ar-list {
 			height: unset !important;
 		}
+	.origa-team{
+		opacity: 0.6;
+	}
 
     .hero-container{
            padding: 14%	
@@ -686,7 +708,7 @@ input::-moz-placeholder {
     }
 
     .nav-white.past-main .nav-item .nav-link {
-        color: #364655;
+        color: #ffffff;
         font-weight: 500;
     }
 
@@ -1168,7 +1190,7 @@ input::-moz-placeholder {
         line-height: 1.6;
         letter-spacing: 0.01em;
         color: #818198;
-        max-width: 630px;
+        max-width: 687px;
         margin: 0 auto;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -1294,15 +1316,16 @@ input::-moz-placeholder {
         font-weight: 700;
         color: #6d48e5;
         color: #FFFFFF;
+        font-family: 'teko', sans-serif;
     }
 
     .counter-text h2 {
-        font-size: 14px;
+    	font-size: 22px;
         font-weight: 500;
         padding: 0.5em;
         color: #364655;
         color: #FFFFFF;
-
+        font-family: 'teko', sans-serif;
     }
 
     .yd-link {
