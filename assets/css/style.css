@@ -360,6 +360,21 @@ line-height: 50px;
 top: 0px;
 }*/
 
+input::-webkit-input-placeholder {
+  font-family: 'Lato',sans-serif;
+}
+
+input:-ms-input-placeholder {
+  font-family: 'Lato',sans-serif;
+}
+
+input:-moz-placeholder {
+  font-family: 'Lato',sans-serif;
+}
+
+input::-moz-placeholder {
+  font-family: 'Lato',sans-serif;
+}
 
 #loading {
     width: 100%;
