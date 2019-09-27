@@ -1198,6 +1198,9 @@ input::-moz-placeholder {
     	background: #1c385d;
         box-shadow:7px 7px 7px rgba(0,0,0,0.2);
     }
+    .left4{
+        margin-left: -4%;
+    }
     .icon-shadow{
         box-shadow:7px 7px 7px rgba(0,0,0,0.2);
     }
