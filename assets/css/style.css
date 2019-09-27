@@ -1198,7 +1198,9 @@ input::-moz-placeholder {
     	background: #1c385d;
         box-shadow:7px 7px 7px rgba(0,0,0,0.2);
     }
-
+    .icon-shadow{
+        box-shadow:7px 7px 7px rgba(0,0,0,0.2);
+    }
     .card-img img {
         vertical-align: middle;
     }
@@ -1373,9 +1375,11 @@ input::-moz-placeholder {
     /*---------------------------------------------------
 -------------- Ar Feature Item Styling --------------
 ---------------------------------------------------*/
-
+    .padding0{
+        padding: 0px !important;
+    }
     .ar-ft-single {
-        padding: 100px 0;
+        padding: 50px 0px 50px 0;
     }
 
     .ar-feature {
