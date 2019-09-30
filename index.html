@@ -93,7 +93,81 @@
                               <span class="carousel-control-next-icon"></span>
                             </a>
 
-                          </div>    
+                          </div> 
+
+                          <div class="box-center notification-section notification-info-blk">
+                        <div class="container notification-container">
+                            <div class="notification-content box-center">
+                                <div class="col-md-12 animate-grid hidden-sm hidden-xs">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="noti-container notify-1" style="opacity: 1; visibility: visible;">
+                                                <div class="image-wrapper">
+                                                    <img src="./anim/ola-banner.png" style="opacity: 1; visibility: visible; height: 23px;">
+                                                </div>
+                                                <span class="translate-animation">
+                                                    <p class="title translate-animation"><span>Ms. Smitha requested OTS</span></p>
+                                                </span>
+                                                <p><span class="line width before-show"></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="noti-container notify-5" style="opacity: 1; visibility: visible;">
+                                                        <div class="image-wrapper">
+                                                            <img src="./anim/flipkart-banner.png" style="opacity: 1; visibility: visible; height: 23px;">
+                                                        </div>
+                                                        <span class="translate-animation">
+                                                            <p class="title translate-animation">Mr. Ashok promised to pay 30K tommorow</p>
+                                                        </span>
+                                                        <p><span class="line width before-show"></span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="noti-container notify-2" style="opacity: 1; visibility: visible;">
+                                                        <div class="image-wrapper">
+                                                            <img src="./anim/uber-banner.png" style="opacity: 1; visibility: visible; height: 23px;">
+                                                        </div>
+                                                        <span class="translate-animation">
+                                                            <p class="title translate-animation">Ms. Latha paid 12K online</p>
+                                                        </span>
+                                                        <p><span class="line width before-show"></span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-offset-1 col-md-4">
+                                                    <div class="noti-container notify-3" style="opacity: 0; visibility: hidden;">
+                                                        <div class="image-wrapper">
+                                                            <img src="./anim/swiggy-banner.png" style="opacity: 0; visibility: hidden; height: 0px;">
+                                                        </div>
+                                                        <span class="">
+                                                            <p class="title">Mr. Raju paid via cheque</p>
+                                                        </span>
+                                                        <p><span class="line"></span></p>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-7">
+                                                    <div class="noti-container notify-4" style="opacity: 1; visibility: visible;">
+                                                        <div class="image-wrapper">
+                                                            <img src="./anim/federal-bank-banner.png" style="opacity: 1; visibility: visible; height: 23px;">
+                                                        </div>
+                                                        <span class="translate-animation">
+                                                            <p class="title translate-animation">You just made a transaction with your debit card</p>
+                                                        </span>
+                                                        <p><span class="line width before-show"></span></p>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
                         <!--   <div class="animation-box">
                             <img class="notificaion-image note1" src="assets/images/heroImageIcon1.png">
                             <img class="notificaion-image note2" src="assets/images/heroImageIcon2.png">
@@ -457,6 +531,150 @@
             emailjs.init("user_frZ4OQQfUNVz9dYIFimrX");    
         })();
     </script>
+    <script>
+        $(window).load(function() {
+            floaterEffect();
+
+            function floaterEffect() {
+                $('.notify-1').css({
+                    'opacity': '1',
+                    'visibility': 'visible'
+                });
+                $('.notify-1 .line').addClass('width');
+                setTimeout(function() {
+                    $('.notify-1 .line').addClass('before-show');
+                }, 500);
+                setTimeout(function() {
+                    $('.notify-1 img').css({
+                        'opacity': '1',
+                        'visibility': 'visible'
+                    });
+                    $('.notify-1 img').animate({ height: '23' }, 500);
+                    setTimeout(function() {
+                        $('.notify-1 .line').addClass('width');
+                    }, 0);
+                }, 700);
+                setTimeout(function() {
+                    $('.notify-1 .title').addClass('translate-animation');
+                    $('.notify-1 >span').addClass('translate-animation');
+                }, 1200);
+                setTimeout(function() {
+                    $('.notify-2').css({
+                        'opacity': '1',
+                        'visibility': 'visible'
+                    });
+                    $('.notify-2 .line').addClass('width');
+                    setTimeout(function() {
+                        $('.notify-2 .line').addClass('before-show');
+                    }, 500);
+                    setTimeout(function() {
+                        $('.notify-2 img').css({
+                            'opacity': '1',
+                            'visibility': 'visible'
+                        });
+                        $('.notify-2 img').animate({ height: '23' }, 500);
+                        setTimeout(function() {
+                            $('.notify-2 .line').addClass('width');
+                        }, 0);
+                    }, 700);
+                    setTimeout(function() {
+                        $('.notify-2 .title').addClass('translate-animation');
+                        $('.notify-2 >span').addClass('translate-animation');
+                    }, 1200);
+                }, 2000);
+                setTimeout(function() {
+                    $('.notify-5').css({
+                        'opacity': '1',
+                        'visibility': 'visible'
+                    });
+                    $('.notify-5 .line').addClass('width');
+                    setTimeout(function() {
+                        $('.notify-5 .line').addClass('before-show');
+                    }, 500);
+                    setTimeout(function() {
+                        $('.notify-5 img').css({
+                            'opacity': '1',
+                            'visibility': 'visible'
+                        });
+                        $('.notify-5 img').animate({ height: '23' }, 500);
+                        setTimeout(function() {
+                            $('.notify-5 .line').addClass('width');
+                        }, 0);
+                    }, 700);
+                    setTimeout(function() {
+                        $('.notify-5 .title').addClass('translate-animation');
+                        $('.notify-5 >span').addClass('translate-animation');
+                    }, 1200);
+                }, 4000);
+                setTimeout(function() {
+                    $('.notify-4').css({
+                        'opacity': '1',
+                        'visibility': 'visible'
+                    });
+                    $('.notify-4 .line').addClass('width');
+                    setTimeout(function() {
+                        $('.notify-4 .line').addClass('before-show');
+                    }, 500);
+                    setTimeout(function() {
+                        $('.notify-4 img').css({
+                            'opacity': '1',
+                            'visibility': 'visible'
+                        });
+                        $('.notify-4 img').animate({ height: '23' }, 500);
+                        setTimeout(function() {
+                            $('.notify-4 .line').addClass('width');
+                        }, 0);
+                    }, 700);
+                    setTimeout(function() {
+                        $('.notify-4 .title').addClass('translate-animation');
+                        $('.notify-4 >span').addClass('translate-animation');
+                    }, 1200);
+                }, 6000);
+                setTimeout(function() {
+                    $('.notify-3').css({
+                        'opacity': '1',
+                        'visibility': 'visible'
+                    });
+                    $('.notify-3 .line').addClass('width');
+                    setTimeout(function() {
+                        $('.notify-3 .line').addClass('before-show');
+                    }, 500);
+                    setTimeout(function() {
+                        $('.notify-3 img').css({
+                            'opacity': '1',
+                            'visibility': 'visible'
+                        });
+                        $('.notify-3 img').animate({ height: '23' }, 500);
+                        setTimeout(function() {
+                            $('.notify-3 .line').addClass('width');
+                        }, 0);
+                    }, 700);
+                    setTimeout(function() {
+                        $('.notify-3 .title').addClass('translate-animation');
+                        $('.notify-3 >span').addClass('translate-animation');
+                    }, 1200);
+                }, 8000);
+                setTimeout(function() {
+                    $('.noti-container').css({
+                        'opacity': '0',
+                        'visibility': 'hidden'
+                    });
+                    $('.noti-container img').css({
+                        'opacity': '0',
+                        'visibility': 'hidden'
+                    });
+                    $('.noti-container img').animate({ height: '0' });
+                    $('.noti-container .title').removeClass('translate-animation');
+                    $('.noti-container >span').removeClass('translate-animation');
+                    $('.noti-container .line').removeClass('width');
+                    $('.noti-container .line').removeClass('before-show');
+                    setTimeout(function() {
+                        floaterEffect();
+                    }, 500);
+                }, 11000);
+            }
+        });
+        </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
 </body>
 
