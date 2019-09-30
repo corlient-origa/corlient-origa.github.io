@@ -2284,7 +2284,7 @@ textarea::-moz-placeholder {
 
         .origa-solution ul {
             width: 100%;
-            height: 28vh;
+            height: inherit;
             align-items: center;
         }
 
@@ -2636,7 +2636,7 @@ textarea::-moz-placeholder {
 
         .origa-solution ul {
             width: 100%;
-            height: 34vh;
+            height: inherit;
             align-items: center;
         }
         .abouts{
@@ -2804,7 +2804,7 @@ textarea::-moz-placeholder {
 
         .origa-solution ul {
             width: 100%;
-            height: 32vh;
+            height: inherit;
             align-items: center;
         }
 
