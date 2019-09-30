@@ -50,6 +50,7 @@ body .notification-section {
 
 .box-center{
     position: absolute !important;
+    margin-top: 65px;
 }
 
 .noti-container p{
