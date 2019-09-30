@@ -448,6 +448,7 @@ textarea::-moz-placeholder {
     background-color: #1c385d !important;
     -webkit-transition: 0.5s all ease;
     transition: 0.5s all ease;
+    padding-left: 0;
 }
 
 .navbar .navbar-brand {
@@ -2675,9 +2676,13 @@ textarea::-moz-placeholder {
         .origa-solution .ar-text h2{
         	font-size: 15px
         }
+        .navbar .container{
+            margin-left: 14% !important;
+            padding-left: 0;
+        }
 
           .hero-container{
-        	margin-top: 5%;
+        	margin-top: 3%;
    		    margin-left: 16%;
         }
 

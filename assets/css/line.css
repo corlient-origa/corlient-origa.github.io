@@ -44,7 +44,7 @@ body .notification-section {
     min-height: auto;
     background: #000000 !important
     font-size: 14px;
-    text-transform: uppercase
+    /*text-transform: uppercase*/
 }
 
 
@@ -88,7 +88,7 @@ body .notification-section .item .notification-info-blk .notification-container 
     color: #FFFFFF;
     letter-spacing: 4px;
     vertical-align: middle;
-    text-transform: uppercase
+    /*text-transform: uppercase*/
 }
 
 body .notification-section .item .notification-info-blk .notification-container .notification-content {
@@ -373,7 +373,7 @@ body .notification-section .noti-container.notify-1 .line.before-show:before {
 
 body .notification-section .noti-container.notify-5 {
     position: relative;
-    bottom: 268px;
+    bottom: 318px;
     left: 815px;
     width: 315px;
 }
