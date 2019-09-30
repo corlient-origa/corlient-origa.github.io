@@ -2580,6 +2580,12 @@ textarea::-moz-placeholder {
 
     }
 
+@media only screen and (min-width: 1234px) and (max-width: 1400px) {
+        .navbar .container{
+            margin-left: 14% !important;
+            padding-left: 0;
+        }
+}
     @media only screen and (min-width: 1234px) {
         .hero-2 .form-alt input {
             padding: 0 100px 0 50px;
@@ -2676,10 +2682,7 @@ textarea::-moz-placeholder {
         .origa-solution .ar-text h2{
         	font-size: 15px
         }
-        .navbar .container{
-            margin-left: 14% !important;
-            padding-left: 0;
-        }
+        
 
           .hero-container{
         	margin-top: 3%;
