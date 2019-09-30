@@ -50,7 +50,7 @@ body .notification-section {
 
 .box-center{
     position: absolute !important;
-    margin-top: 65px;
+    margin-top: 85px;
 }
 
 .noti-container p{
@@ -373,7 +373,7 @@ body .notification-section .noti-container.notify-1 .line.before-show:before {
 
 body .notification-section .noti-container.notify-5 {
     position: relative;
-    bottom: 318px;
+    bottom: 268px;
     left: 815px;
     width: 315px;
 }
