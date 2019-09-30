@@ -795,7 +795,7 @@ textarea::-moz-placeholder {
         font-size: 15px;
         font-weight: 500;
         color: rgb(129, 129, 152);
-        max-width: 630px;
+        max-width: 730px;
         margin: 0 auto;
         letter-spacing: 0;
         line-height: 1.6;
@@ -2161,7 +2161,7 @@ textarea::-moz-placeholder {
         font-size: 16px;
         font-weight: 500;
         color: rgb(129, 129, 152);
-        max-width: 630px;
+        max-width: 730px;
         margin: 0 auto;
         letter-spacing: 0;
         line-height: 1.6;
