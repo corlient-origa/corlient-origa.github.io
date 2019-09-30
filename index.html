@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.css">
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/line.css">
 </head>
 
 <body>
@@ -103,7 +104,7 @@
                                         <div class="col-md-8">
                                             <div class="noti-container notify-1" style="opacity: 1; visibility: visible;">
                                                 <div class="image-wrapper">
-                                                    <img src="./anim/ola-banner.png" style="opacity: 1; visibility: visible; height: 23px;">
+                                                    <!-- <img src="./anim/noti-1.png" style="opacity: 1; visibility: visible; height: 23px;"> -->
                                                 </div>
                                                 <span class="translate-animation">
                                                     <p class="title translate-animation"><span>Ms. Smitha requested OTS</span></p>
@@ -116,7 +117,7 @@
                                                 <div class="col-md-4">
                                                     <div class="noti-container notify-5" style="opacity: 1; visibility: visible;">
                                                         <div class="image-wrapper">
-                                                            <img src="./anim/flipkart-banner.png" style="opacity: 1; visibility: visible; height: 23px;">
+                                                            <!-- <img src="./anim/noti5.png" style="opacity: 1; visibility: visible; height: 23px;"> -->
                                                         </div>
                                                         <span class="translate-animation">
                                                             <p class="title translate-animation">Mr. Ashok promised to pay 30K tommorow</p>
@@ -127,7 +128,7 @@
                                                 <div class="col-md-8">
                                                     <div class="noti-container notify-2" style="opacity: 1; visibility: visible;">
                                                         <div class="image-wrapper">
-                                                            <img src="./anim/uber-banner.png" style="opacity: 1; visibility: visible; height: 23px;">
+                                                            <!-- <img src="./anim/not2.png" style="opacity: 1; visibility: visible; height: 23px;"> -->
                                                         </div>
                                                         <span class="translate-animation">
                                                             <p class="title translate-animation">Ms. Latha paid 12K online</p>
@@ -142,7 +143,7 @@
                                                 <div class="col-md-offset-1 col-md-4">
                                                     <div class="noti-container notify-3" style="opacity: 0; visibility: hidden;">
                                                         <div class="image-wrapper">
-                                                            <img src="./anim/swiggy-banner.png" style="opacity: 0; visibility: hidden; height: 0px;">
+                                                            <!-- <img src="./anim/noti-3.png" style="opacity: 0; visibility: hidden; height: 0px;"> -->
                                                         </div>
                                                         <span class="">
                                                             <p class="title">Mr. Raju paid via cheque</p>
@@ -533,6 +534,19 @@
     </script>
     <script>
         $(window).load(function() {
+             $('.noti-container').css({
+                        'opacity': '0',
+                        'visibility': 'hidden'
+                    });
+                    $('.noti-container img').css({
+                        'opacity': '0',
+                        'visibility': 'hidden'
+                    });
+                    $('.noti-container img').animate({ height: '0' });
+                    $('.noti-container .title').removeClass('translate-animation');
+                    $('.noti-container >span').removeClass('translate-animation');
+                    $('.noti-container .line').removeClass('width');
+                    $('.noti-container .line').removeClass('before-show');
             floaterEffect();
 
             function floaterEffect() {
@@ -606,30 +620,30 @@
                         $('.notify-5 >span').addClass('translate-animation');
                     }, 1200);
                 }, 4000);
-                setTimeout(function() {
-                    $('.notify-4').css({
-                        'opacity': '1',
-                        'visibility': 'visible'
-                    });
-                    $('.notify-4 .line').addClass('width');
-                    setTimeout(function() {
-                        $('.notify-4 .line').addClass('before-show');
-                    }, 500);
-                    setTimeout(function() {
-                        $('.notify-4 img').css({
-                            'opacity': '1',
-                            'visibility': 'visible'
-                        });
-                        $('.notify-4 img').animate({ height: '23' }, 500);
-                        setTimeout(function() {
-                            $('.notify-4 .line').addClass('width');
-                        }, 0);
-                    }, 700);
-                    setTimeout(function() {
-                        $('.notify-4 .title').addClass('translate-animation');
-                        $('.notify-4 >span').addClass('translate-animation');
-                    }, 1200);
-                }, 6000);
+                // setTimeout(function() {
+                //     $('.notify-4').css({
+                //         'opacity': '1',
+                //         'visibility': 'visible'
+                //     });
+                //     $('.notify-4 .line').addClass('width');
+                //     setTimeout(function() {
+                //         $('.notify-4 .line').addClass('before-show');
+                //     }, 500);
+                //     setTimeout(function() {
+                //         $('.notify-4 img').css({
+                //             'opacity': '1',
+                //             'visibility': 'visible'
+                //         });
+                //         $('.notify-4 img').animate({ height: '23' }, 500);
+                //         setTimeout(function() {
+                //             $('.notify-4 .line').addClass('width');
+                //         }, 0);
+                //     }, 700);
+                //     setTimeout(function() {
+                //         $('.notify-4 .title').addClass('translate-animation');
+                //         $('.notify-4 >span').addClass('translate-animation');
+                //     }, 1200);
+                // }, 6000);
                 setTimeout(function() {
                     $('.notify-3').css({
                         'opacity': '1',
@@ -653,7 +667,7 @@
                         $('.notify-3 .title').addClass('translate-animation');
                         $('.notify-3 >span').addClass('translate-animation');
                     }, 1200);
-                }, 8000);
+                }, 6000);
                 setTimeout(function() {
                     $('.noti-container').css({
                         'opacity': '0',
@@ -671,7 +685,7 @@
                     setTimeout(function() {
                         floaterEffect();
                     }, 500);
-                }, 11000);
+                }, 9000);
             }
         });
         </script>
