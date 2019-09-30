@@ -438,7 +438,9 @@ body .notification-section .noti-container.notify-2 .line.width:after {
 body .notification-section .noti-container.notify-2 .line.before-show:before {
     opacity: 1
 }
-
+.notify-3 p{
+    margin-bottom: 20px !important;
+}
 body .notification-section .noti-container.notify-3 {
     position: relative;
     left: 640px;

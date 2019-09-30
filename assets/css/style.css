@@ -2583,7 +2583,6 @@ textarea::-moz-placeholder {
 @media only screen and (min-width: 1234px) and (max-width: 1400px) {
         .navbar .container{
             margin-left: 14% !important;
-            padding-left: 0;
         }
 }
     @media only screen and (min-width: 1234px) {
