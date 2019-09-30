@@ -2755,3 +2755,47 @@ input::-moz-placeholder {
         }
 
     }
+
+
+.animation-box{
+    margin-top: 20%;
+    margin-left: 15%;
+}
+.notificaion-image{
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: absolute;
+  width: 10%;
+}
+
+.note1{
+    animation-delay: 0.5s;
+    margin-top: 6%;
+}
+.note2{
+    animation-delay: 2s;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+.note3{
+    animation-delay: 4s;
+    margin-left: 37%;
+    margin-top: 8%;
+}
+.note4{
+    animation-delay: 6s;
+    margin-left: 57%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
