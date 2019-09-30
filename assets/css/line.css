@@ -373,8 +373,8 @@ body .notification-section .noti-container.notify-1 .line.before-show:before {
 
 body .notification-section .noti-container.notify-5 {
     position: relative;
-    bottom: 268px;
-    left: 815px;
+    bottom: 178px;
+    left: 655px;
     width: 315px;
 }
 
@@ -443,7 +443,7 @@ body .notification-section .noti-container.notify-2 .line.before-show:before {
 }
 body .notification-section .noti-container.notify-3 {
     position: relative;
-    left: 640px;
+    left: 500px;
     bottom: 370px;
     width: 229px
 }
