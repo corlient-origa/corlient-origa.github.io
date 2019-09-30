@@ -591,9 +591,9 @@ textarea::-moz-placeholder {
     .secret-feature .ar-list {
 			height: unset !important;
 		}
-	/*.origa-team{
+	.origa-team{
 		opacity: 0.6;
-	}*/
+	}
 
     .hero-container{
            padding: 14%	
@@ -2717,13 +2717,10 @@ textarea::-moz-placeholder {
 
      	.home {
         padding: 100px 0 50px 0;
+	    background: url(../images/Buildings.png) repeat no-repeat;
 	    height: 982px;
 	    background-size: cover;
 	    background-position: bottom;
-    }
-    .home:before{
-        background: url(../images/Buildings.png) repeat no-repeat;
-        
     }
 
      	.card-icon {
