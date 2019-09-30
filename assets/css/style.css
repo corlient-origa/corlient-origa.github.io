@@ -1200,7 +1200,7 @@ textarea::-moz-placeholder {
     }
 
     .features-intro h2 {
-        font-size: 28px;
+        font-size: 27px;
         font-weight: 600;
         color: #3a3a47;
         line-height: 1.3;
@@ -1208,7 +1208,7 @@ textarea::-moz-placeholder {
     }
 
     .features-intro h1 {
-        font-size: 24px;
+        font-size: 31px;
         font-weight: 600;
         color: #3a3a47;
         line-height: 1.3;
@@ -1253,6 +1253,9 @@ textarea::-moz-placeholder {
     }
     .left4{
         margin-left: -4%;
+    }
+    .left4 .features-intro h1{
+        font-size: 31px;
     }
     .icon-shadow{
         box-shadow:7px 7px 7px rgba(0,0,0,0.2);
@@ -2153,7 +2156,7 @@ textarea::-moz-placeholder {
         }
 
         .navbar .navbar-brand {
-            padding-left: 3%;
+            padding-left: 0%;
         }
 
         .h1-shadow{
