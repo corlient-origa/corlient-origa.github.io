@@ -510,7 +510,7 @@ body .notification-section .noti-container.notify-4 .line.before-show:before {
 
 @media (min-width: 320px) and (max-width: 767px) {
     .box-center{
-       display: none;
+       display: none !important;
     }
     body .notification-section {
         min-height: auto
@@ -629,3 +629,9 @@ body{
     }
 }
 
+
+@media only screen and (max-width:320px){
+    .box-center{
+        display: none !important;
+    }
+}
