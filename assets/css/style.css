@@ -271,6 +271,10 @@ body {
     		font-size: 40px;
         }
 
+.origa-solution .ar-text h2{
+    margin-top: 10px;
+}
+
 .origa-solution .medium {
             width: unset;
             height: unset;
@@ -452,6 +456,7 @@ textarea::-moz-placeholder {
 }
 
 .navbar .navbar-brand {
+    padding-left: 10%;
     font-family: 'Jura', sans-serif;
     font-size: 19px;
     font-weight: bolder;
@@ -592,9 +597,7 @@ textarea::-moz-placeholder {
     .secret-feature .ar-list {
 			height: unset !important;
 		}
-	.origa-team{
-		opacity: 0.6;
-	}
+	
 
     .hero-container{
            padding: 14%	
@@ -1229,8 +1232,8 @@ textarea::-moz-placeholder {
     }
 
     .card-icon {
-        width: 65px;
-        height: 65px;
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
         margin: 0 auto;
         background: rgba(30, 166, 154, 0.08);
@@ -2144,6 +2147,10 @@ textarea::-moz-placeholder {
             margin-top: 0;
         }
 
+        .navbar .navbar-brand {
+            padding-left: 3%;
+        }
+
         .h1-shadow{
             font-size: 45px;
         }
@@ -2350,6 +2357,7 @@ textarea::-moz-placeholder {
 
         .origa-solution .ar-text h2{
         	color:black;
+            margin-top: 10px;
         }
 
 
@@ -2814,7 +2822,8 @@ textarea::-moz-placeholder {
             width: 50%
         }*/
         .origa-solution .ar-text h2{
-        	font-size: 16px
+        	font-size: 16px;
+            margin-top: 10px;
         }
 
         .section1 ..containerhero-container{
