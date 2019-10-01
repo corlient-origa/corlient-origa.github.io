@@ -633,9 +633,15 @@ body{
         margin-top: 22%;
     }
 }
+
 @media (min-height: 1000px) {
     .box-center{
-        margin-top: 15%;
+        margin-top: 22%;
+    }
+}
+@media (min-height: 1300px) {
+    .box-center{
+        margin-top: 17%;
     }
 }
 

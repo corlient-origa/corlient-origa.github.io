@@ -560,6 +560,7 @@ textarea::-moz-placeholder {
 @media only screen and (min-width: 240px) {
     .home{
         height: 100vh !important; 
+        overflow-x: hidden;
     }
 
     .small{
