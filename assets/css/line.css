@@ -253,7 +253,8 @@ body .notification-section .noti-container {
 }
 
 body .notification-section .noti-container .image-wrapper {
-    height: 23px
+    height: 45px;
+    opacity:0.6 !important;
 }
 
 body .notification-section .noti-container img {
@@ -337,7 +338,9 @@ body .notification-section .noti-container .line:after {
 
 body .notification-section .noti-container.notify-1 {
     width: 215px;
-    margin: 0 auto
+    margin: 0 auto;
+    top: 44px;
+    position: relative;
 }
 
 body .notification-section .noti-container.notify-1 .line {

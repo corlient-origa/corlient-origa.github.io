@@ -131,6 +131,9 @@ ol,
 ul {
     list-style: none;
 }
+b{
+    font-weight: bolder;
+}
 
 blockquote,
 q {
@@ -194,6 +197,7 @@ body {
     width: 100%;
     position: relative;
     bottom: 19px;
+    margin-top: 16%;
 }
 
 .contact-section{
@@ -208,6 +212,7 @@ body {
 .contact-form textarea {
     border: none;
     background: #fafafa;
+    min-height: 163px;
 }
 
 .contact-form button {
@@ -459,8 +464,8 @@ textarea::-moz-placeholder {
 .navbar .navbar-brand {
     padding-left: 10%;
     font-family: 'Jura', sans-serif;
-    font-size: 19px;
-    font-weight: bolder;
+    font-size: 23px;
+    font-weight: 400;
     letter-spacing: 0;
     color: #ffffff !important;
     vertical-align: middle;
@@ -560,6 +565,15 @@ textarea::-moz-placeholder {
     .small{
     	color: #ffffff
     }
+
+    .contact-ul{
+        border: 1px dotted #12274638;
+        color: black;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        padding-bottom: 10px;
+        }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -586,13 +600,16 @@ textarea::-moz-placeholder {
 		    height: 45px;
 		    width: 45px;
 		    text-align: center;
-    }
+            position: absolute;
+            left: 10%;
+            }
     .contact-section .ar-list .ar-icon img{ 	    
 		    height: inherit;
 
     }
      .contact-section .ar-list .ar-text{ 	    
 		    margin-top: 3%;
+            padding-left: 6%;
     }
 
     .secret-feature .ar-list {
@@ -639,6 +656,9 @@ textarea::-moz-placeholder {
 
        .large{
        	text-align: -webkit-center;
+       }
+       .large .ar-text h2{
+        font-size: 19px !important;
        }
 
 
@@ -2151,6 +2171,25 @@ textarea::-moz-placeholder {
             margin-top: 0;
         }
 
+        .contact-form{
+            margin-top: 9%;
+        }
+        .contact-section .ar-list .ar-icon{
+            border-radius: 100%;
+            background: #1c385d;
+            height: 45px;
+            width: 45px;
+            text-align: center;
+    }
+    .contact-section .ar-list .ar-icon img{         
+            height: inherit;
+
+    }
+     .contact-section .ar-list .ar-text{        
+            margin-top: 3%;
+    }
+
+
         .contact-ul{
         border: 1px dotted #12274638;
         color: black;
@@ -2183,7 +2222,8 @@ textarea::-moz-placeholder {
         .home p {
         font-size: 16px;
         font-weight: 500;
-        color: rgb(129, 129, 152);
+        color: #fefefe;
+        opacity: 0.8;
         max-width: 730px;
         margin: 0 auto;
         letter-spacing: 0;
