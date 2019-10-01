@@ -624,7 +624,7 @@ body{
 
 @media (min-height: 700px) {
     .box-center{
-        margin-top: 135px;
+        margin-top: 13%;
     }
 }
 
@@ -635,7 +635,7 @@ body{
 }
 @media (min-height: 1000px) {
     .box-center{
-        margin-top: 18%;
+        margin-top: 15%;
     }
 }
 
