@@ -567,6 +567,18 @@ textarea::-moz-placeholder {
     	color: #ffffff
     }
 
+    .next-section-icon{
+        width: 41px;
+        position: absolute;
+        bottom: 4%;
+        left: 10%;
+        color: #fff
+    }
+
+    .next-section-icon img{
+        width: 50px;
+    }
+
     .contact-ul{
         border: 1px dotted #12274638;
         color: black;
@@ -2143,6 +2155,14 @@ textarea::-moz-placeholder {
             padding-right: 40px;
         }
 
+        .next-section-icon{
+        width: 41px;
+        position: absolute;
+        bottom: 4%;
+        left: 10%;
+        color: #fff
+    }
+
         .h1-shadow{
             font-size: 35px;
         }
@@ -2171,6 +2191,14 @@ textarea::-moz-placeholder {
         .navbar-nav {
             margin-top: 0;
         }
+
+        .next-section-icon{
+        width: 41px;
+        position: absolute;
+        bottom: 4%;
+        left: 10%;
+        color: #fff
+    }
 
         .contact-form{
             margin-top: 9%;
@@ -2495,7 +2523,7 @@ textarea::-moz-placeholder {
         }
 
         .carousel-control-next{
-        	right:20%;
+        	right:-14%;
         }
 
 
@@ -2625,6 +2653,10 @@ textarea::-moz-placeholder {
             font-size: 11px;
         }
 
+         .carousel-control-next{
+            right:-14%;
+        }
+
 
 
         .secret-feature .ar-list h1 {
@@ -2655,6 +2687,10 @@ textarea::-moz-placeholder {
             padding: 0 100px 0 50px;
         }
 
+         .next-section-icon{
+            display: none
+        }
+
         .contact-ul{
             border: 1px dotted #12274638;
             color: black;
@@ -2666,6 +2702,10 @@ textarea::-moz-placeholder {
          .nav-container{
                 max-width: 70% !important;
             }
+
+        .carousel-control-next{
+            right:20%;
+        }
 
         .home {
         padding: 100px 0 50px 0;
@@ -2799,6 +2839,11 @@ textarea::-moz-placeholder {
     }
 
      @media only screen and (min-width: 1700px) {
+
+        .next-section-icon{
+            display: unset;
+            bottom: 30%
+        }
 
      	.home {
         padding: 100px 0 50px 0;
@@ -3017,6 +3062,15 @@ textarea::-moz-placeholder {
 @media only screen and (min-width: 2000px) {
 .home{
     max-height:1035px 
+}
+
+.next-section-icon{
+            display: unset;
+            bottom: 35%
+        }
+
+.carousel-control-next {
+    right: 0%;
 }
 
 .secret-feature .ar-list ul li p{
