@@ -2151,6 +2151,14 @@ textarea::-moz-placeholder {
             margin-top: 0;
         }
 
+        .contact-ul{
+        border: 1px dotted #12274638;
+        color: black;
+        border-left: none;
+        border-top: none;
+        border-bottom: none;
+        }
+
         .teamoriga p {
             font-size: 15px !important
         }
@@ -2596,22 +2604,35 @@ textarea::-moz-placeholder {
 
     }
 
-@media only screen and (min-width: 1234px) and (max-width: 1400px) {
+/*@media only screen and (min-width: 1234px) and (max-width: 1400px) {
         .navbar .container{
             margin-left: 14% !important;
         }
-}
+}*/
     @media only screen and (min-width: 1234px) {
         .hero-2 .form-alt input {
             padding: 0 100px 0 50px;
         }
 
+        .contact-ul{
+            border: 1px dotted #12274638;
+            color: black;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            }
+
+         .nav-container{
+                max-width: 70% !important;
+            }
+
         .home {
         padding: 100px 0 50px 0;
 	    background: url(../images/Buildings.png) repeat no-repeat 0 50%;
 	    height: 654px;
-	    background-size: cover;
+	    background-size: auto;
 	    background-position: bottom;
+        max-height: 953px;
     }
 
         .card-icon {
@@ -2742,9 +2763,26 @@ textarea::-moz-placeholder {
         padding: 100px 0 50px 0;
 	    background: url(../images/Buildings.png) repeat no-repeat;
 	    height: 982px;
-	    background-size: cover;
+	    background-size: auto;
 	    background-position: bottom;
+        max-height: 933px;
     }
+
+    .nav-container{
+        max-width: 70% !important;
+    }
+
+    .contact-ul{
+    border: 1px dotted #12274638;
+    color: black;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    }
+
+    
+    
+
 
      	.card-icon {
         width: 85px;
@@ -2933,4 +2971,19 @@ textarea::-moz-placeholder {
   to {
     opacity: 1;
   }
+}
+
+@media only screen and (min-width: 2000px) {
+.home{
+    max-height:1035px 
+}
+
+.secret-feature .ar-list ul li p{
+    font-size: 15px;
+}
+
+.teamoriga p {
+    font-size: 18px !important
+}
+
 }

@@ -50,7 +50,7 @@ body .notification-section {
 
 .box-center{
     position: absolute !important;
-    margin-top: 95px;
+    margin-top: 11%;;
 }
 
 .noti-container p{
@@ -627,7 +627,12 @@ body{
 
 @media (min-height: 900px) {
     .box-center{
-        margin-top: 185px;
+        margin-top: 26%;
+    }
+}
+@media (min-height: 1000px) {
+    .box-center{
+        margin-top: 18%;
     }
 }
 
@@ -637,3 +642,4 @@ body{
         display: none !important;
     }
 }
+
