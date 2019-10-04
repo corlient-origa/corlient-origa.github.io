@@ -9,7 +9,11 @@ body .box-center {
     display: -webkit-9lex;
     flex-flow: wrap;
     -webkit-flex-flow: wrap;
-    align-items: center
+    align-items: center;
+    width:70%;
+    margin: 0 auto;
+    left: 0;
+    right:0;
 }
 
 body .box-center:before,
@@ -50,7 +54,7 @@ body .notification-section {
 
 .box-center{
     position: absolute !important;
-    margin-top: 11%;;
+    /*margin-top: 11%;*/
 }
 
 .noti-container p{
@@ -338,19 +342,19 @@ body .notification-section .noti-container .line:after {
 
 body .notification-section .noti-container.notify-1 {
     width: 215px;
-    margin: 0 auto;
+    /*margin: 0 auto;
     top: 44px;
-    position: relative;
+    position: relative;*/
 }
 
 body .notification-section .noti-container.notify-1 .line {
-    width: 85px;
+    width: 65px;
     transform: rotate(110deg);
     -webkit-transform: rotate(110deg);
     -moz-transform: rotate(110deg);
     -ms-transform: rotate(110deg);
     -o-transform: rotate(110deg);
-    top: 43px;
+    top: 40px;
     right: 18px;
     -webkit-transition: width 0.5s ease;
     -moz-transition: width 0.5s ease;
@@ -375,9 +379,9 @@ body .notification-section .noti-container.notify-1 .line.before-show:before {
 }
 
 body .notification-section .noti-container.notify-5 {
-    position: relative;
+   /* position: relative;
     bottom: 178px;
-    left: 655px;
+    left: 655px;*/
     width: 315px;
 }
 
@@ -388,7 +392,7 @@ body .notification-section .noti-container.notify-5 .line {
     -moz-transform: rotate(80deg);
     -ms-transform: rotate(80deg);
     -o-transform: rotate(80deg);
-    top: 50px;
+    top: 30px;
     left: 10px
 }
 
@@ -409,9 +413,9 @@ body .notification-section .noti-container.notify-5 .line.before-show:before {
 }
 
 body .notification-section .noti-container.notify-2 {
-    position: relative;
+   /* position: relative;
     bottom: 218px;
-    left: 174px;
+    left: 174px;*/
     width: 280px
 }
 
@@ -445,9 +449,9 @@ body .notification-section .noti-container.notify-2 .line.before-show:before {
     margin-bottom: 20px !important;
 }
 body .notification-section .noti-container.notify-3 {
-    position: relative;
+    /*position: relative;
     left: 500px;
-    bottom: 370px;
+    bottom: 370px;*/
     width: 229px
 }
 
@@ -479,9 +483,9 @@ body .notification-section .noti-container.notify-3 .line.before-show:before {
 }
 
 body .notification-section .noti-container.notify-4 {
-    position: relative;
+   /* position: relative;
     bottom: 250px;
-    right: 230px;
+    right: 230px;*/
     width: 287px
 }
 
@@ -622,26 +626,26 @@ body{
     background: black;
 }
 
-@media (min-height: 700px) {
+@media (min-height: 600px) {
     .box-center{
-        margin-top: 13%;
+        position: absolute !important;
+        top: 60%;
+        width: 60% !important;
+        /*margin-top: 13%;*/
     }
 }
 
 @media (min-height: 900px) {
     .box-center{
-        margin-top: 22%;
+        top: 740px;
+        width: 63% !important;
     }
 }
 
-@media (min-height: 1000px) {
+@media (min-height: 1100px) {
     .box-center{
-        margin-top: 22%;
-    }
-}
-@media (min-height: 1300px) {
-    .box-center{
-        margin-top: 17%;
+        top: 735px;
+        width: 52% !important;
     }
 }
 

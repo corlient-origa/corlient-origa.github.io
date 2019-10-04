@@ -576,7 +576,11 @@ textarea::-moz-placeholder {
     }
 
     .next-section-icon img{
-        width: 50px;
+        width: 22px;
+    }
+
+    .next-section-icon img:hover{
+        width: 28px;
     }
 
     .contact-ul{
@@ -794,7 +798,7 @@ textarea::-moz-placeholder {
 
     .home {
         padding: 100px 0 50px 0;
-	    height: 707px;;
+	    height: 707px;
     }
 
     .home .intro-block {
@@ -2714,6 +2718,7 @@ textarea::-moz-placeholder {
 	    background-size: auto;
 	    background-position: bottom;
         max-height: 991px;
+
     }
 
         .card-icon {
@@ -2841,8 +2846,10 @@ textarea::-moz-placeholder {
      @media only screen and (min-width: 1700px) {
 
         .next-section-icon{
-            display: unset;
-            bottom: 30%
+                display: unset;
+                top: 44%;
+                left: 25.5%;
+                bottom: unset;
         }
 
      	.home {
@@ -2852,6 +2859,7 @@ textarea::-moz-placeholder {
 	    background-size: auto;
 	    background-position: bottom;
         max-height: 991px;
+        min-height: 991px;
     }
 
     .nav-container{
@@ -3061,12 +3069,12 @@ textarea::-moz-placeholder {
 
 @media only screen and (min-width: 2000px) {
 .home{
-    max-height:1035px 
+    max-height: 991px;
+    min-height: 991px;  
 }
 
 .next-section-icon{
-            display: unset;
-            bottom: 35%
+            display: none;
         }
 
 .carousel-control-next {
