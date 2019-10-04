@@ -629,7 +629,7 @@ body{
 @media (min-height: 600px) {
     .box-center{
         position: absolute !important;
-        top: 60%;
+        top: 62%;
         width: 60% !important;
         /*margin-top: 13%;*/
     }
